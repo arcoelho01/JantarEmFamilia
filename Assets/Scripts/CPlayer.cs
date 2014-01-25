@@ -61,8 +61,19 @@ public class CPlayer : MonoBehaviour {
 	 * ==========================================================================================================
 	 */
 
-	/// The transformations are like a finite states machine
+	/// <summary>
+	///
+	/// </summary>
+	public void InFrontOfAMirror() {
 
+		if(GetCurrentState() != ProjectionState.P_MYSELF) {
+
+			ChangeToState(ProjectionState.P_MYSELF);
+		}
+	}
+
+
+	/// The transformations are like a finite states machine
 	/// <summary>
 	///
 	/// </summary>
