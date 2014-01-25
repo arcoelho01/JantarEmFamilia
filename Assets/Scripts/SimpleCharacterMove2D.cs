@@ -5,9 +5,11 @@ public class SimpleCharacterMove2D: MonoBehaviour {
 
 	Rigidbody rb;
 	Vector3 v3MoveDirection = Vector3.zero;
-	float fThreshold = 0.25f;
-	float fMoveSpeed = 4.0f;
-	public Vector3 targetVelocity;
+	public float fThreshold = 0.25f;
+	public float fMoveSpeed = 4.0f;
+		public float maxVelocityChange = 10.0f;
+		public float speed = 5.0f;
+	Vector3 targetVelocity;
 
 	// Use this for initialization
 	void Start () {
@@ -23,8 +25,6 @@ public class SimpleCharacterMove2D: MonoBehaviour {
 		float fV = Input.GetAxis("Vertical");
 
 		// rigidbody2D stuff
-		float maxVelocityChange = 10.0f;
-		float speed = 5.0f;
 			
 		// From RigidbodyFPSController
 		// http://wiki.unity3d.com/index.php?title=RigidbodyFPSWalker
