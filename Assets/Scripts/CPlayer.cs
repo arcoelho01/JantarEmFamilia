@@ -17,6 +17,8 @@ public class CPlayer : MonoBehaviour {
 
 	public Transform trMyself;	//< Transform to the sub-object 'myself'
 	public Transform trMouse;		//< Transform to the mouse, will be enable when transformed
+	public Transform trStrong;	//< Transform to the strong guy, will be enable when transformed
+	public Transform trChild;		//< Transform to the child, will be enable when transformed
 
 	public Transform trPFXTransform;	//< Particles to be created when the player transforms into something
 	public AudioClip sfxTransform;		//< Audio effect for the transformation
@@ -36,6 +38,7 @@ public class CPlayer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
+		ChangeToState(ProjectionState.P_MYSELF);
 	}
 	
 	// Update is called once per frame
@@ -43,11 +46,19 @@ public class CPlayer : MonoBehaviour {
 	
 		if(Input.GetKeyUp(KeyCode.Z)) {
 
-			ChangeToState(ProjectionState.P_MOUSE);
+			ChangeToState(ProjectionState.P_MYSELF);
 		}
 		if(Input.GetKeyUp(KeyCode.X)) {
 
-			ChangeToState(ProjectionState.P_MYSELF);
+			ChangeToState(ProjectionState.P_MOUSE);
+		}
+		if(Input.GetKeyUp(KeyCode.C)) {
+
+			ChangeToState(ProjectionState.P_STRONG);
+		}
+		if(Input.GetKeyUp(KeyCode.V)) {
+
+			ChangeToState(ProjectionState.P_CHILD);
 		}
 	}
 
@@ -110,9 +121,19 @@ public class CPlayer : MonoBehaviour {
 				break;
 
 			case ProjectionState.P_STRONG:
+				// Enable
+				if(trStrong) {
+
+					trStrong.gameObject.SetActive(true);
+				}
 				break;
 
 			case ProjectionState.P_CHILD:
+				// Enable
+				if(trChild) {
+
+					trChild.gameObject.SetActive(true);
+				}
 				break;
 		}
 	}
@@ -141,9 +162,19 @@ public class CPlayer : MonoBehaviour {
 				break;
 
 			case ProjectionState.P_STRONG:
+				// Disable
+				if(trStrong) {
+
+					trStrong.gameObject.SetActive(false);
+				}
 				break;
 
 			case ProjectionState.P_CHILD:
+				// Disable
+				if(trChild) {
+
+					trChild.gameObject.SetActive(false);
+				}
 				break;
 		}
 	}
