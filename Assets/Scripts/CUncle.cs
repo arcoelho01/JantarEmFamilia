@@ -4,7 +4,7 @@ using System.Collections;
 /// <summary>
 /// Class name and description
 /// </summary>
-public class CFather : MonoBehaviour {
+public class CUncle : MonoBehaviour {
 
 	/* ==========================================================================================================
 	 * CLASS VARIABLES
@@ -26,7 +26,7 @@ public class CFather : MonoBehaviour {
 	void Awake() {
 
 		if(!goIcon) 
-			goIcon = GameObject.Find("/HUD/HUDDad");
+			goIcon = GameObject.Find("/HUD/HUDUncle");
 
 		if(!goIcon) 
 			Debug.LogError("No ICONHUD");
@@ -73,7 +73,7 @@ public class CFather : MonoBehaviour {
 		if(col.gameObject.layer == 9) {
 
 		// DEBUG
-		Debug.Log("Faher exit:" + col.transform);
+		Debug.Log("Uncle exit:" + col.transform);
 			if(!playerScript)
 				playerScript = col.transform.gameObject.GetComponent<CPlayer>();
 
@@ -93,7 +93,7 @@ public class CFather : MonoBehaviour {
 		// transforma o jogador
 		if(playerScript) {
 
-			playerScript.TalkedToFather();
+			playerScript.TalkedToUncle();
 		}
 	}
 
