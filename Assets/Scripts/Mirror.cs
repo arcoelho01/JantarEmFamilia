@@ -47,7 +47,7 @@ public class Mirror : MonoBehaviour {
 	/// <summary>
 	///
 	/// </summary>
-	void OnTriggerEnter(Collider col) {
+	void OnTriggerEnter2D(Collider2D col) {
 
 		if(col.gameObject.layer == 9) {
 
@@ -66,8 +66,7 @@ public class Mirror : MonoBehaviour {
 			}
 
 			// DEBUG
-			Debug.Log("Mirror: " + trColParent);
+			Debug.Log("Mirror: " + col.transform);
 		}
-
 	}
 }
