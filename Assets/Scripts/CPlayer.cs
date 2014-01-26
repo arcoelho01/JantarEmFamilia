@@ -27,7 +27,10 @@ public class CPlayer : MonoBehaviour {
 
 	public Transform trPFXTransform;	//< Particles to be created when the player transforms into something
 	public AudioClip sfxTransform;		//< Audio effect for the transformation
+
+	public CircleCollider2D	colPlayer;	//< The collider for this player
 	// PRIVATE
+	public Animator animator;
 
 	// PROTECTED
 
@@ -38,11 +41,13 @@ public class CPlayer : MonoBehaviour {
 	//
 	void Awake() {
 
+		animator = this.GetComponent<Animator>();
 	}
 
 	// Use this for initialization
 	void Start () {
 	
+		colPlayer = GetComponent<CircleCollider2D>();
 		ChangeToState(ProjectionState.P_MYSELF);
 	}
 	
@@ -106,11 +111,17 @@ public class CPlayer : MonoBehaviour {
 		LeaveCurrentState();
 
 		currentState = newState;
+		ProjectionState state = GetCurrentState();
 
-		switch(GetCurrentState()) {
+		switch(state) {
 
 			case ProjectionState.P_MYSELF:
-				// Enable
+				// Change the collider size
+				colPlayer.radius = 0.23f;
+
+				// Set the animator
+				animator.SetInteger("state", (int)state);
+
 				if(trMyself) {
 
 					trMyself.gameObject.SetActive(true);
@@ -124,6 +135,12 @@ public class CPlayer : MonoBehaviour {
 
 			case ProjectionState.P_MOUSE:
 				// Enable
+				colPlayer.radius = 0.02f;
+
+				// Set the animator
+				animator.SetInteger("state", (int)state);
+
+				// Enable
 				if(trMouse) {
 
 					trMouse.gameObject.SetActive(true);
@@ -136,6 +153,12 @@ public class CPlayer : MonoBehaviour {
 				break;
 
 			case ProjectionState.P_STRONG:
+				// Set the animator
+				animator.SetInteger("state", (int)state);
+
+				// Enable
+				colPlayer.radius = 0.4f;
+
 				// Enable
 				if(trStrong) {
 
@@ -149,6 +172,9 @@ public class CPlayer : MonoBehaviour {
 				break;
 
 			case ProjectionState.P_CHILD:
+				// Set the animator
+				animator.SetInteger("state", (int)state);
+
 				// Enable
 				if(trChild) {
 
@@ -202,6 +228,35 @@ public class CPlayer : MonoBehaviour {
 				}
 				break;
 		}
+	}
+
+	/// <summary>
+	///
+	/// </summary>
+	public Transform GetCurrentSpriteObject() {
+
+		Transform trSprite = null;
+
+		switch(GetCurrentState()) {
+
+			case ProjectionState.P_MYSELF:
+				trSprite = trMyself;
+				break;
+
+			case ProjectionState.P_MOUSE:
+				trSprite = trMouse;
+				break;
+
+			case ProjectionState.P_STRONG:
+				trSprite = trStrong;
+				break;
+
+			case ProjectionState.P_CHILD:
+				trSprite = trChild;
+				break;
+		}
+
+		return trSprite;
 	}
 
 }

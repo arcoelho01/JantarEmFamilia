@@ -53,7 +53,8 @@ public class Mirror : MonoBehaviour {
 
 			// Hit a player. Get the parent from the parent of the collider
 
-			Transform trColParent = col.transform.parent.transform.parent;
+		//	Transform trColParent = col.transform.parent.transform.parent;
+			Transform trColParent = col.transform;
 
 			// Get the CPlayer component
 			CPlayer playerScript = trColParent.gameObject.GetComponent<CPlayer>();
