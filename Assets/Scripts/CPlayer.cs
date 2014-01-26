@@ -27,6 +27,8 @@ public class CPlayer : MonoBehaviour {
 	// PRIVATE
 	public Animator animator;
 
+	public bool bnHasKey;
+
 	// PROTECTED
 
 	/* ==========================================================================================================
