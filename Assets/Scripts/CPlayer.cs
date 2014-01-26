@@ -10,19 +10,22 @@ public class CPlayer : MonoBehaviour {
 	 * CLASS VARIABLES
 	 * ==========================================================================================================
 	 */
+
+	public delegate void PlayerStrongHandler(bool bnIsStrong);
+	public static event PlayerStrongHandler OnTransformedStrong;
+
+
 	// PUBLIC
 	public enum ProjectionState {P_MYSELF, P_MOUSE, P_STRONG, P_CHILD };
 	public ProjectionState currentState = ProjectionState.P_MYSELF;
 	public ProjectionState previousState = ProjectionState.P_MYSELF;
 
-	public Transform trMyself;	//< Transform to the sub-object 'myself'
-	public Transform trMouse;		//< Transform to the mouse, will be enable when transformed
-	public Transform trStrong;	//< Transform to the strong guy, will be enable when transformed
-	public Transform trChild;		//< Transform to the child, will be enable when transformed
-
 	public Transform trPFXTransform;	//< Particles to be created when the player transforms into something
-	public AudioClip sfxTransform;		//< Audio effect for the transformation
+	public AudioClip sfxTransformation;		//< Audio effect for the transformation
+
+	public CircleCollider2D	colPlayer;	//< The collider for this player
 	// PRIVATE
+	public Animator animator;
 
 	// PROTECTED
 
@@ -33,11 +36,13 @@ public class CPlayer : MonoBehaviour {
 	//
 	void Awake() {
 
+		animator = this.GetComponent<Animator>();
 	}
 
 	// Use this for initialization
 	void Start () {
 	
+		colPlayer = GetComponent<CircleCollider2D>();
 		ChangeToState(ProjectionState.P_MYSELF);
 	}
 	
@@ -88,7 +93,7 @@ public class CPlayer : MonoBehaviour {
 	/// <summary>
 	///
 	/// </summary>
-	ProjectionState GetCurrentState() {
+	public ProjectionState GetCurrentState() {
 
 		return currentState;
 	}
@@ -100,39 +105,67 @@ public class CPlayer : MonoBehaviour {
 
 		LeaveCurrentState();
 
-		currentState = newState;
+		if(sfxTransformation) {
 
-		switch(GetCurrentState()) {
+			AudioSource.PlayClipAtPoint(sfxTransformation, transform.position);
+		}
+
+
+		currentState = newState;
+		ProjectionState state = GetCurrentState();
+
+		switch(state) {
 
 			case ProjectionState.P_MYSELF:
-				// Enable
-				if(trMyself) {
+				// Change the collider size
+				colPlayer.radius = 0.23f;
 
-					trMyself.gameObject.SetActive(true);
+				// Set the animator
+				animator.SetInteger("state", (int)state);
+
+				if(OnTransformedStrong != null) {
+
+					// Not strong
+					OnTransformedStrong(false);
 				}
 				break;
 
 			case ProjectionState.P_MOUSE:
 				// Enable
-				if(trMouse) {
+				colPlayer.radius = 0.02f;
 
-					trMouse.gameObject.SetActive(true);
+				// Set the animator
+				animator.SetInteger("state", (int)state);
+
+				if(OnTransformedStrong != null) {
+
+					// Not strong
+					OnTransformedStrong(false);
 				}
 				break;
 
 			case ProjectionState.P_STRONG:
-				// Enable
-				if(trStrong) {
+				// Set the animator
+				animator.SetInteger("state", (int)state);
 
-					trStrong.gameObject.SetActive(true);
+				// Enable
+				colPlayer.radius = 0.4f;
+
+				if(OnTransformedStrong != null) {
+
+					// Not strong
+					OnTransformedStrong(true);
 				}
 				break;
 
 			case ProjectionState.P_CHILD:
-				// Enable
-				if(trChild) {
+				// Set the animator
+				animator.SetInteger("state", (int)state);
 
-					trChild.gameObject.SetActive(true);
+				if(OnTransformedStrong != null) {
+
+					// Not strong
+					OnTransformedStrong(false);
 				}
 				break;
 		}
@@ -146,37 +179,16 @@ public class CPlayer : MonoBehaviour {
 		switch(GetCurrentState()) {
 
 			case ProjectionState.P_MYSELF:
-				// Disable
-				if(trMyself) {
-
-					trMyself.gameObject.SetActive(false);
-				}
 				break;
 
 			case ProjectionState.P_MOUSE:
-				// Disable
-				if(trMouse) {
-
-					trMouse.gameObject.SetActive(false);
-				}
 				break;
 
 			case ProjectionState.P_STRONG:
-				// Disable
-				if(trStrong) {
-
-					trStrong.gameObject.SetActive(false);
-				}
 				break;
 
 			case ProjectionState.P_CHILD:
-				// Disable
-				if(trChild) {
-
-					trChild.gameObject.SetActive(false);
-				}
 				break;
 		}
 	}
-
 }

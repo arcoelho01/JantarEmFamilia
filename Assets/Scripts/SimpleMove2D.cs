@@ -14,7 +14,12 @@ public class SimpleMove2D : MonoBehaviour {
 	Vector2 v2MoveDirection;
 	public float fMoveSpeed = 3.0f;
 
+	private bool bnFacingLeft = true;
+	private Animator animator;
+	public Transform trSprite;
+
 	// PRIVATE
+	CPlayer playerScript;
 
 	// PROTECTED
 
@@ -25,11 +30,14 @@ public class SimpleMove2D : MonoBehaviour {
 	//
 	void Awake() {
 
+		playerScript = GetComponent<CPlayer>();
 	}
 
 	// Use this for initialization
 	void Start () {
 	
+		animator = this.GetComponent<Animator>();
+		trSprite = this.transform;
 	}
 	
 	// Update is called once per frame
@@ -44,8 +52,19 @@ public class SimpleMove2D : MonoBehaviour {
 		float fV = Input.GetAxis("Vertical");
 
 		v2MoveDirection = new Vector2(fH, fV);
-		transform.Translate(v2MoveDirection.normalized * fMoveSpeed * Time.deltaTime);
+		animator.SetFloat("hDirection", v2MoveDirection.sqrMagnitude);
 		
+		if(fH < 0 && !bnFacingLeft) {
+
+			FlipSprite();
+		}
+		else if(fH > 0 && bnFacingLeft) {
+
+			FlipSprite();
+		}
+
+
+		transform.Translate(v2MoveDirection.normalized * fMoveSpeed * Time.deltaTime);
 
 		//if(fH * rigidbody2D.velocity.x < maxSpeed) {
 
@@ -66,5 +85,16 @@ public class SimpleMove2D : MonoBehaviour {
 	 * CLASS METHODS
 	 * ==========================================================================================================
 	 */
+	/// <summary>
+	/// </summary>
+	void FlipSprite() {
+
+		//trSprite = playerScript.GetCurrentSpriteObject();
+
+		Vector3 v3SpriteScale = trSprite.localScale;
+		v3SpriteScale.x *= -1;
+		trSprite.localScale = v3SpriteScale;
+		bnFacingLeft = !bnFacingLeft;
+	}
 }
 
