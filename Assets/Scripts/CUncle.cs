@@ -25,12 +25,9 @@ public class CUncle : MonoBehaviour {
 	//
 	void Awake() {
 
-		if(!goIcon) 
-			goIcon = GameObject.Find("/HUD/HUDUncle");
+		goIcon = GameObject.Find("/MainCamera/HUD/HUDUncle");
 
-		if(!goIcon) 
-			Debug.LogError("No ICONHUD");
-		else
+		if(goIcon)
 			goIcon.SetActive(false);
 
 	}
@@ -38,6 +35,8 @@ public class CUncle : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		if(!goIcon)
+			goIcon = GameObject.Find("/MainCamera/HUD/HUDUncle");
 	}
 	
 	// Update is called once per frame

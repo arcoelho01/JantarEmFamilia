@@ -25,19 +25,17 @@ public class CFather : MonoBehaviour {
 	//
 	void Awake() {
 
-		if(!goIcon) 
-			goIcon = GameObject.Find("/HUD/HUDDad");
+		goIcon = GameObject.Find("/MainCamera/HUD/HUDDad");
 
-		if(!goIcon) 
-			Debug.LogError("No ICONHUD");
-		else
+		if(goIcon) 
 			goIcon.SetActive(false);
-
 	}
 
 	// Use this for initialization
 	void Start () {
 
+		if(!goIcon) 
+			goIcon = GameObject.Find("/MainCamera/HUD/HUDDad");
 	}
 	
 	// Update is called once per frame
