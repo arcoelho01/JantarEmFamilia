@@ -11,9 +11,7 @@ public class SimpleMove2D : MonoBehaviour {
 	 * ==========================================================================================================
 	 */
 	// PUBLIC
-	public float moveForce = 365f;
-	public float maxSpeed = 5f;
-	public Vector2 v2MoveDirection;
+	Vector2 v2MoveDirection;
 	public float fMoveSpeed = 3.0f;
 
 	// PRIVATE
