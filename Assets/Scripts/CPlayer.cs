@@ -200,4 +200,8 @@ public class CPlayer : MonoBehaviour {
 
 		ChangeToState(ProjectionState.P_STRONG);
 	}
+	public void TalkedToUncle() {
+
+		ChangeToState(ProjectionState.P_MOUSE);
+	}
 }
