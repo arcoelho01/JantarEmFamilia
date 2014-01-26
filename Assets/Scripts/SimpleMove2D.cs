@@ -37,7 +37,6 @@ public class SimpleMove2D : MonoBehaviour {
 	void Start () {
 	
 		animator = this.GetComponent<Animator>();
-	//	trSprite = playerScript.GetCurrentSpriteObject();
 		trSprite = this.transform;
 	}
 	

@@ -20,13 +20,8 @@ public class CPlayer : MonoBehaviour {
 	public ProjectionState currentState = ProjectionState.P_MYSELF;
 	public ProjectionState previousState = ProjectionState.P_MYSELF;
 
-	public Transform trMyself;	//< Transform to the sub-object 'myself'
-	public Transform trMouse;		//< Transform to the mouse, will be enable when transformed
-	public Transform trStrong;	//< Transform to the strong guy, will be enable when transformed
-	public Transform trChild;		//< Transform to the child, will be enable when transformed
-
 	public Transform trPFXTransform;	//< Particles to be created when the player transforms into something
-	public AudioClip sfxTransform;		//< Audio effect for the transformation
+	public AudioClip sfxTransformation;		//< Audio effect for the transformation
 
 	public CircleCollider2D	colPlayer;	//< The collider for this player
 	// PRIVATE
@@ -110,6 +105,12 @@ public class CPlayer : MonoBehaviour {
 
 		LeaveCurrentState();
 
+		if(sfxTransformation) {
+
+			AudioSource.PlayClipAtPoint(sfxTransformation, transform.position);
+		}
+
+
 		currentState = newState;
 		ProjectionState state = GetCurrentState();
 
@@ -122,10 +123,6 @@ public class CPlayer : MonoBehaviour {
 				// Set the animator
 				animator.SetInteger("state", (int)state);
 
-				if(trMyself) {
-
-					trMyself.gameObject.SetActive(true);
-				}
 				if(OnTransformedStrong != null) {
 
 					// Not strong
@@ -140,11 +137,6 @@ public class CPlayer : MonoBehaviour {
 				// Set the animator
 				animator.SetInteger("state", (int)state);
 
-				// Enable
-				if(trMouse) {
-
-					trMouse.gameObject.SetActive(true);
-				}
 				if(OnTransformedStrong != null) {
 
 					// Not strong
@@ -159,11 +151,6 @@ public class CPlayer : MonoBehaviour {
 				// Enable
 				colPlayer.radius = 0.4f;
 
-				// Enable
-				if(trStrong) {
-
-					trStrong.gameObject.SetActive(true);
-				}
 				if(OnTransformedStrong != null) {
 
 					// Not strong
@@ -175,11 +162,6 @@ public class CPlayer : MonoBehaviour {
 				// Set the animator
 				animator.SetInteger("state", (int)state);
 
-				// Enable
-				if(trChild) {
-
-					trChild.gameObject.SetActive(true);
-				}
 				if(OnTransformedStrong != null) {
 
 					// Not strong
@@ -197,66 +179,16 @@ public class CPlayer : MonoBehaviour {
 		switch(GetCurrentState()) {
 
 			case ProjectionState.P_MYSELF:
-				// Disable
-				if(trMyself) {
-
-					trMyself.gameObject.SetActive(false);
-				}
 				break;
 
 			case ProjectionState.P_MOUSE:
-				// Disable
-				if(trMouse) {
-
-					trMouse.gameObject.SetActive(false);
-				}
 				break;
 
 			case ProjectionState.P_STRONG:
-				// Disable
-				if(trStrong) {
-
-					trStrong.gameObject.SetActive(false);
-				}
 				break;
 
 			case ProjectionState.P_CHILD:
-				// Disable
-				if(trChild) {
-
-					trChild.gameObject.SetActive(false);
-				}
 				break;
 		}
 	}
-
-	/// <summary>
-	///
-	/// </summary>
-	public Transform GetCurrentSpriteObject() {
-
-		Transform trSprite = null;
-
-		switch(GetCurrentState()) {
-
-			case ProjectionState.P_MYSELF:
-				trSprite = trMyself;
-				break;
-
-			case ProjectionState.P_MOUSE:
-				trSprite = trMouse;
-				break;
-
-			case ProjectionState.P_STRONG:
-				trSprite = trStrong;
-				break;
-
-			case ProjectionState.P_CHILD:
-				trSprite = trChild;
-				break;
-		}
-
-		return trSprite;
-	}
-
 }
