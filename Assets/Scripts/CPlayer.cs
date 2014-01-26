@@ -10,6 +10,11 @@ public class CPlayer : MonoBehaviour {
 	 * CLASS VARIABLES
 	 * ==========================================================================================================
 	 */
+
+	public delegate void PlayerStrongHandler(bool bnIsStrong);
+	public static event PlayerStrongHandler OnTransformedStrong;
+
+
 	// PUBLIC
 	public enum ProjectionState {P_MYSELF, P_MOUSE, P_STRONG, P_CHILD };
 	public ProjectionState currentState = ProjectionState.P_MYSELF;
@@ -88,7 +93,7 @@ public class CPlayer : MonoBehaviour {
 	/// <summary>
 	///
 	/// </summary>
-	ProjectionState GetCurrentState() {
+	public ProjectionState GetCurrentState() {
 
 		return currentState;
 	}
@@ -110,6 +115,11 @@ public class CPlayer : MonoBehaviour {
 
 					trMyself.gameObject.SetActive(true);
 				}
+				if(OnTransformedStrong != null) {
+
+					// Not strong
+					OnTransformedStrong(false);
+				}
 				break;
 
 			case ProjectionState.P_MOUSE:
@@ -117,6 +127,11 @@ public class CPlayer : MonoBehaviour {
 				if(trMouse) {
 
 					trMouse.gameObject.SetActive(true);
+				}
+				if(OnTransformedStrong != null) {
+
+					// Not strong
+					OnTransformedStrong(false);
 				}
 				break;
 
@@ -126,6 +141,11 @@ public class CPlayer : MonoBehaviour {
 
 					trStrong.gameObject.SetActive(true);
 				}
+				if(OnTransformedStrong != null) {
+
+					// Not strong
+					OnTransformedStrong(true);
+				}
 				break;
 
 			case ProjectionState.P_CHILD:
@@ -133,6 +153,11 @@ public class CPlayer : MonoBehaviour {
 				if(trChild) {
 
 					trChild.gameObject.SetActive(true);
+				}
+				if(OnTransformedStrong != null) {
+
+					// Not strong
+					OnTransformedStrong(false);
 				}
 				break;
 		}
