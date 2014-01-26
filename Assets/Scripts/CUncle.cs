@@ -60,7 +60,7 @@ public class CUncle : MonoBehaviour {
 
 			CPlayer playerScript = col.transform.gameObject.GetComponent<CPlayer>();
 
-			if(playerScript != null) {
+			if(playerScript != null && playerScript.GetCurrentState() == CPlayer.ProjectionState.P_MYSELF) {
 
 				CharacterTalkToPlayer();
 			}
@@ -73,7 +73,6 @@ public class CUncle : MonoBehaviour {
 		if(col.gameObject.layer == 9) {
 
 		// DEBUG
-		Debug.Log("Uncle exit:" + col.transform);
 			if(!playerScript)
 				playerScript = col.transform.gameObject.GetComponent<CPlayer>();
 

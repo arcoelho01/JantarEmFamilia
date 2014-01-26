@@ -23,12 +23,12 @@ public class BoxMoveableByStrong : MonoBehaviour {
 	//
 	void OnEnable() {
 
-		CPlayer.OnTransformedStrong += OnPlayerTransformStrong;
+		//CPlayer.OnTransformedStrong += OnPlayerTransformStrong;
 	}
 
 	void Disable() {
 
-		CPlayer.OnTransformedStrong -= OnPlayerTransformStrong;
+		//CPlayer.OnTransformedStrong -= OnPlayerTransformStrong;
 	}
 
 	void OnPlayerTransformStrong(bool bnIsStrong) {
@@ -59,4 +59,40 @@ public class BoxMoveableByStrong : MonoBehaviour {
 	 * CLASS METHODS
 	 * ==========================================================================================================
 	 */
+	/// <summary>
+	///
+	/// </summary>
+	void OnTriggerEnter2D(Collider2D col) {
+
+		if(col.gameObject.layer == 9) {
+
+			// Hit a player. Get the parent from the parent of the collider
+
+		//	Transform trColParent = col.transform.parent.transform.parent;
+			Transform trColParent = col.transform;
+
+			// Get the CPlayer component
+			CPlayer playerScript = trColParent.gameObject.GetComponent<CPlayer>();
+
+			if(playerScript != null && playerScript.GetCurrentState() == CPlayer.ProjectionState.P_STRONG) {
+
+				rigidbody2D.isKinematic = false;
+			}
+			else {
+
+				rigidbody2D.isKinematic = true;
+			}
+		}
+	}
+
+	/// <summary>
+	///
+	/// </summary>
+	void OnTriggerExit2D(Collider2D col) {
+
+		if(col.gameObject.layer == 9) {
+
+			rigidbody2D.isKinematic = true;
+		}
+	}
 }
