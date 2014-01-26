@@ -28,6 +28,7 @@ public class CPlayer : MonoBehaviour {
 	public Animator animator;
 
 	public bool bnHasKey;
+	SimpleMove2D movementScript;
 
 	// PROTECTED
 
@@ -39,6 +40,7 @@ public class CPlayer : MonoBehaviour {
 	void Awake() {
 
 		animator = this.GetComponent<Animator>();
+		movementScript = GetComponent<SimpleMove2D>();
 	}
 
 	// Use this for initialization
@@ -192,5 +194,10 @@ public class CPlayer : MonoBehaviour {
 			case ProjectionState.P_CHILD:
 				break;
 		}
+	}
+
+	public void TalkedToFather() {
+
+		ChangeToState(ProjectionState.P_STRONG);
 	}
 }

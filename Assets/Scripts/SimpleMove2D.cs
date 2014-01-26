@@ -20,6 +20,7 @@ public class SimpleMove2D : MonoBehaviour {
 
 	// PRIVATE
 	CPlayer playerScript;
+	public bool bnAllowedToGetInput = true;
 
 	// PROTECTED
 
@@ -48,24 +49,25 @@ public class SimpleMove2D : MonoBehaviour {
 	// Physics
 	void FixedUpdate() {
 
-		float fH = Input.GetAxis("Horizontal");
-		float fV = Input.GetAxis("Vertical");
+		if(bnAllowedToGetInput) {
+			float fH = Input.GetAxis("Horizontal");
+			float fV = Input.GetAxis("Vertical");
 
-		v2MoveDirection = new Vector2(fH, fV);
-		animator.SetFloat("hDirection", v2MoveDirection.sqrMagnitude);
-		
-		if(fH < 0 && !bnFacingLeft) {
+			v2MoveDirection = new Vector2(fH, fV);
+			animator.SetFloat("hDirection", v2MoveDirection.sqrMagnitude);
 
-			FlipSprite();
+			if(fH < 0 && !bnFacingLeft) {
+
+				FlipSprite();
+			}
+			else if(fH > 0 && bnFacingLeft) {
+
+				FlipSprite();
+			}
+
+
+			transform.Translate(v2MoveDirection.normalized * fMoveSpeed * Time.deltaTime);
 		}
-		else if(fH > 0 && bnFacingLeft) {
-
-			FlipSprite();
-		}
-
-
-		transform.Translate(v2MoveDirection.normalized * fMoveSpeed * Time.deltaTime);
-
 		//if(fH * rigidbody2D.velocity.x < maxSpeed) {
 
 		//	rigidbody2D.AddForce(Vector2.right * fH * moveForce);
@@ -95,6 +97,22 @@ public class SimpleMove2D : MonoBehaviour {
 		v3SpriteScale.x *= -1;
 		trSprite.localScale = v3SpriteScale;
 		bnFacingLeft = !bnFacingLeft;
+	}
+
+	/// <summary>
+	///
+	/// </summary>
+	public void LockMovement() {
+
+		bnAllowedToGetInput = false;
+	}
+
+	/// <summary>
+	///
+	/// </summary>
+	public void UnlockMovement() {
+
+		bnAllowedToGetInput = true;
 	}
 }
 

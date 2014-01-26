@@ -11,10 +11,11 @@ public class CFather : MonoBehaviour {
 	 * ==========================================================================================================
 	 */
 	// PUBLIC
-	public Texture2D tFatherText;
+	public Transform trIcon;
 
 	// PRIVATE
-
+	private CPlayer playerScript = null;
+	private SimpleMove2D movementScript;
 	// PROTECTED
 
 	/* ==========================================================================================================
@@ -28,7 +29,8 @@ public class CFather : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		if(trIcon)
+			trIcon.gameObject.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -36,7 +38,7 @@ public class CFather : MonoBehaviour {
 	
 	}
 
-	// Physics
+	// 
 	void FixedUpdate() {
 
 	}
@@ -49,8 +51,49 @@ public class CFather : MonoBehaviour {
 
 		if(col.gameObject.layer == 9) {
 
-			// Hit a player. Get the parent from the parent of the collider
-			Debug.Log("Father: " + col.transform);
+			CPlayer playerScript = col.transform.gameObject.GetComponent<CPlayer>();
+
+			if(playerScript != null) {
+
+				CharacterTalkToPlayer();
+			}
 		}
+	}
+
+	void OnTriggerExit2D(Collider2D col) {
+
+
+		if(col.gameObject.layer == 9) {
+
+		// DEBUG
+		Debug.Log("Faher exit:" + col.transform);
+			if(!playerScript)
+				playerScript = col.transform.gameObject.GetComponent<CPlayer>();
+
+			if(playerScript != null) {
+
+				CharacterDoneTalkingToPlayer();
+			}
+		}
+	}
+
+	void CharacterDoneTalkingToPlayer() {
+
+		// esconde o balao
+		if(trIcon)
+			trIcon.gameObject.SetActive(false);
+
+		// transforma o jogador
+		if(playerScript) {
+
+			playerScript.TalkedToFather();
+		}
+	}
+
+	void CharacterTalkToPlayer() {
+
+		// Mostra balao
+		if(trIcon)
+			trIcon.gameObject.SetActive(true);
 	}
 }
