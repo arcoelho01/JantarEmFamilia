@@ -123,5 +123,13 @@ public class SimpleMove2D : MonoBehaviour
 
 				bnAllowedToGetInput = true;
 		}
+
+		/// <summary>
+		///
+		/// </summary>
+		public Vector3 GetMovingDirection() {
+
+			return v2MoveDirection;
+		}
 }
 
