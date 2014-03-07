@@ -17,6 +17,9 @@ public class CDoor : MonoBehaviour {
 	public Transform	trLockedDoor;
 	public Transform	trOpenDoor;
 
+	public AudioClip	sfxLockedDoor;		//< Played when the player touches a locked door that he cannot open yet
+	public AudioClip	sfxUnlockedDoor;	//< Played when the player unlocks a door
+
 	// PRIVATE
 	private CCamera		cameraScript;
 
@@ -65,10 +68,21 @@ public class CDoor : MonoBehaviour {
 	public void PlayerWantsToUnlockThisDoor(CPlayer playerScript) {
 
 		// Invalid player or no key? 
-		if(playerScript == null || !playerScript.bnHasKey)
+		if(playerScript == null || !playerScript.bnHasKey) {
+
+			// Cannot unlock this door
+			if(sfxLockedDoor != null) {
+
+				AudioSource.PlayClipAtPoint(sfxLockedDoor, this.transform.position);
+			}
 			return;
+		}
 
 		// Ok, unlocks this door
+		if(sfxUnlockedDoor != null) {
+
+			AudioSource.PlayClipAtPoint(sfxUnlockedDoor, this.transform.position);
+		}
 		trLockedDoor.gameObject.SetActive(false);
 		trOpenDoor.gameObject.SetActive(true);
 	}
