@@ -1,0 +1,6556 @@
+fileFormatVersion: 2
+guid: 05d4ff26b14132d49a7540ebb97c6f12
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: _InsideHouseSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 289
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_23
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_27
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_34
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_35
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_37
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_39
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 281
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_42
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_45
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_47
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_49
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_51
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_53
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_54
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_55
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_57
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_58
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_59
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 273
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_63
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_66
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_67
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_69
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_71
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_73
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_74
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_75
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_77
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_79
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 265
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_81
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_83
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_84
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_85
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_86
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_87
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_89
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_91
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_93
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_94
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_95
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_97
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_99
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 257
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_101
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_103
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_104
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_105
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_106
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_107
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_109
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_111
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_112
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_113
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_114
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_115
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_117
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_118
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_119
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 249
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_121
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_122
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_123
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_124
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_125
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_126
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_127
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_128
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_129
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_130
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_131
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_132
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_133
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_134
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_135
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_137
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_138
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_139
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 241
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_141
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_142
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_143
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_144
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_145
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_146
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_147
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_149
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_150
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_151
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_152
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_153
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_154
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_155
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_157
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_158
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_159
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 233
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_161
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_162
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_163
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_164
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_165
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_166
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_167
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_168
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_169
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_170
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_171
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_172
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_173
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_174
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_175
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_176
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_177
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_178
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_179
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 225
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_181
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_182
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_183
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_184
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_185
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_186
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_187
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_189
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_190
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_191
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_192
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_193
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_194
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_195
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_196
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_197
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_198
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_199
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 217
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_201
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_202
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_203
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_204
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_205
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_206
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_207
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_208
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_209
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_210
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_211
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_212
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_213
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_214
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_215
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_216
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_217
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_218
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_219
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 209
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_221
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_222
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_223
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_224
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_225
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_226
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_227
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_228
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_229
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_230
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_231
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_232
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_233
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_234
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_235
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_236
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_237
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_238
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_239
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 201
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_241
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_242
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_243
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_244
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_245
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_246
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_247
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_248
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_249
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_250
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_251
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_252
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_253
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_254
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_255
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_256
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_257
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_258
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_259
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 193
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_260
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_261
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_262
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_263
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_264
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_265
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_266
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_267
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_268
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_269
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_270
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_271
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_272
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_273
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_274
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_275
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_276
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_277
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_278
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_279
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 185
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_281
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_282
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_283
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_284
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_285
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_286
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_287
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_288
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_289
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_290
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_291
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_292
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_293
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_294
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_295
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_296
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_297
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_298
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_299
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 177
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_300
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_301
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_302
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_303
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_304
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_305
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_306
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_307
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_308
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_309
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_310
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_311
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_312
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_313
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_314
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_315
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_316
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_317
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_318
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_319
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 169
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_320
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_321
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_322
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_323
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_324
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_325
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_326
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_327
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_328
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_329
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_330
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_331
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_332
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_333
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_334
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_335
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_336
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_337
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_338
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_339
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 161
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_340
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_341
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_342
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_343
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_344
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_345
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_346
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_347
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_348
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_349
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_350
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_351
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_352
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_353
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_354
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_355
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_356
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_357
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_358
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_359
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 153
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_360
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_361
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_362
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_363
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_364
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_365
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_366
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_367
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_368
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_369
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_370
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_371
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_372
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_373
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_374
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_375
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_376
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_377
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_378
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_379
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 145
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_380
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_381
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_382
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_383
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_384
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_385
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_386
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_387
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_388
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_389
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_390
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_391
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_392
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_393
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_394
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_395
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_396
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_397
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 137
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_398
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_399
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_400
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_401
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_402
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_403
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_404
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_405
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_406
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_407
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_408
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_409
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_410
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_411
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_412
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_413
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_414
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_415
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 129
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_416
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_417
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_418
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_419
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_420
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_421
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_422
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_423
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_424
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_425
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_426
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_427
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_428
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_429
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_430
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_431
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_432
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 121
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_433
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_434
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_435
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_436
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_437
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_438
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_439
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_440
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_441
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_442
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_443
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_444
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_445
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_446
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_447
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_448
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_449
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_450
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_451
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_452
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 113
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_453
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_454
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_455
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_456
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_457
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_458
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_459
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_460
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_461
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_462
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_463
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_464
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_465
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_466
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_467
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_468
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_469
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_470
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_471
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_472
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 105
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_473
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_474
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_475
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_476
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_477
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_478
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_479
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_480
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_481
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_482
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_483
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_484
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_485
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_486
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_487
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_488
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_489
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_490
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_491
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_492
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 97
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_493
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_494
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_495
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_496
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_497
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_498
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_499
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_500
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_501
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_502
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_503
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_504
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_505
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_506
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_507
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_508
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_509
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_510
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_511
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_512
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 89
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_513
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_514
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_515
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_516
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_517
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_518
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_519
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_520
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_521
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_522
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_523
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_524
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_525
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_526
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_527
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_528
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_529
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_530
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_531
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_532
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 81
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_533
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_534
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_535
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_536
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_537
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_538
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_539
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_540
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_541
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_542
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_543
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_544
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_545
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_546
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_547
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_548
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_549
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_550
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_551
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_552
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 73
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_553
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_554
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_555
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_556
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_557
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_558
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_559
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_560
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_561
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_562
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_563
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_564
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_565
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_566
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_567
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_568
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_569
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_570
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_571
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_572
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 65
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_573
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_574
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_575
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_576
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_577
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_578
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_579
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_580
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_581
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_582
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_583
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_584
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_585
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_586
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_587
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_588
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_589
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_590
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_591
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_592
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 57
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_593
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_594
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_595
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_596
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_597
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_598
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_599
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_600
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_601
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_602
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_603
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_604
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_605
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_606
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_607
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_608
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_609
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_610
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_611
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_612
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 49
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_613
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_614
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_615
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_616
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_617
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_618
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_619
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_620
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_621
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_622
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_623
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_624
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_625
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_626
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_627
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_628
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_629
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_630
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_631
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_632
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 41
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_633
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_634
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_635
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_636
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_637
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_638
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_639
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_640
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_641
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_642
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_643
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_644
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_645
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_646
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_647
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_648
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_649
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_650
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_651
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 33
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_652
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_653
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_654
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_655
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_656
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_657
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_658
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_659
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_660
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_661
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_662
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_663
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_664
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_665
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_666
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_667
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_668
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_669
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 25
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_670
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_671
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_672
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_673
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_674
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_675
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_676
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_677
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_678
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_679
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_680
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_681
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_682
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_683
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_684
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_685
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_686
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_687
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_688
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 17
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_689
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_690
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_691
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_692
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_693
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_694
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_695
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_696
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_697
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_698
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_699
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_700
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_701
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_702
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_703
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_704
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_705
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_706
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_707
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 9
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_708
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_709
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_710
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_711
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_712
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_713
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_714
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_715
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_716
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_717
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_718
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_719
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_720
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_721
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+    - name: _InsideHouseSheet_722
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
