@@ -28,7 +28,9 @@ public class CPlayer : MonoBehaviour
 	public ProjectionState currentState = ProjectionState.P_MYSELF;
 	public ProjectionState previousState = ProjectionState.P_MYSELF;
 	public Transform trPFXTransform;	//< Particles to be created when the player transforms into something
-	public AudioClip sfxTransformation;		//< Audio effect for the transformation
+
+	public AudioClip	sfxTransformation;		//< Audio effect for the transformation
+	public AudioClip	sfxBackToNormal;			//< Audio effect when the player is transformed back
 
 	public BoxCollider2D	colPlayer;	//< The collider for this player
 
@@ -129,18 +131,20 @@ public class CPlayer : MonoBehaviour
 
 		LeaveCurrentState ();
 
-		if (sfxTransformation) {
-
-			AudioSource.PlayClipAtPoint (sfxTransformation, transform.position);
-		}
-
-
+		previousState = currentState;
 		currentState = newState;
 		ProjectionState state = GetCurrentState ();
 
 		switch (state) {
 
 			case ProjectionState.P_MYSELF:
+
+				// Play the SFX
+				if (sfxBackToNormal && previousState != ProjectionState.P_MYSELF) {
+
+					AudioSource.PlayClipAtPoint (sfxBackToNormal, transform.position);
+				}
+
 
 				// Activate the collider
 				goMyselfCollider.SetActive(true);
@@ -157,6 +161,13 @@ public class CPlayer : MonoBehaviour
 				break;
 
 			case ProjectionState.P_MOUSE:
+
+				// Play the sfx
+				if (sfxTransformation) {
+
+					AudioSource.PlayClipAtPoint (sfxTransformation, transform.position);
+				}
+
 				// Enable collider
 				goMouseCollider.SetActive(true);
 
@@ -171,6 +182,12 @@ public class CPlayer : MonoBehaviour
 				break;
 
 			case ProjectionState.P_STRONG:
+				// Play the sfx
+				if (sfxTransformation) {
+
+					AudioSource.PlayClipAtPoint (sfxTransformation, transform.position);
+				}
+
 				// Enable
 				//colPlayer.radius = 0.4f;
 				goStrongCollider.SetActive(true);
@@ -186,6 +203,12 @@ public class CPlayer : MonoBehaviour
 				break;
 
 			case ProjectionState.P_CHILD:
+				// Play the sfx
+				if (sfxTransformation) {
+
+					AudioSource.PlayClipAtPoint (sfxTransformation, transform.position);
+				}
+
 				// Set the animator
 				animator.SetInteger ("state", (int)state);
 
