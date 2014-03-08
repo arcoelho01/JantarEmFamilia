@@ -254,7 +254,7 @@ public class CPlayer : MonoBehaviour
 
 	public void TalkedToUncle ()
 	{
-
-		ChangeToState (ProjectionState.P_MOUSE);
+		if(GetCurrentState() != ProjectionState.P_MOUSE)
+			ChangeToState (ProjectionState.P_MOUSE);
 	}
 }

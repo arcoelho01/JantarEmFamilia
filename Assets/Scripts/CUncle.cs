@@ -57,7 +57,7 @@ public class CUncle : MonoBehaviour {
 
 		if(col.gameObject.layer == 9) {
 
-			CPlayer playerScript = col.transform.gameObject.GetComponent<CPlayer>();
+			CPlayer playerScript = col.transform.parent.transform.gameObject.GetComponent<CPlayer>();
 
 			if(playerScript != null && playerScript.GetCurrentState() == CPlayer.ProjectionState.P_MYSELF) {
 
@@ -73,7 +73,7 @@ public class CUncle : MonoBehaviour {
 
 		// DEBUG
 			if(!playerScript)
-				playerScript = col.transform.gameObject.GetComponent<CPlayer>();
+				playerScript = col.transform.parent.transform.gameObject.GetComponent<CPlayer>();
 
 			if(playerScript != null) {
 
