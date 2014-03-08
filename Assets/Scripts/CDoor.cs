@@ -13,9 +13,11 @@ public class CDoor : MonoBehaviour {
 	// PUBLIC
 	public Transform	trCamera;				//< Game Camera
 	public Transform	trNextRoom;			//< On the next room, the object that indicates the camera position
+	public Transform	trNextRoomSpot;	//< Where the player must appear when he passes through this door?
 	public bool				bnIsLocked;			//< Is this door currently locked?
 	public Transform	trLockedDoor;
 	public Transform	trOpenDoor;
+
 
 	public AudioClip	sfxLockedDoor;		//< Played when the player touches a locked door that he cannot open yet
 	public AudioClip	sfxUnlockedDoor;	//< Played when the player unlocks a door
@@ -54,11 +56,16 @@ public class CDoor : MonoBehaviour {
 	/// <summary>
 	/// Called by a trigger on an open door, indicating that the player traversed the door
 	/// </summary>
-	public void PlayerWantsToGoToNextRoom() {
+	public void PlayerWantsToGoToNextRoom(Transform trPlayer) {
 
 		if(trNextRoom != null) {
 
 			cameraScript.StartShiftingCamera(trNextRoom);
+		}
+
+		if(trNextRoomSpot != null) {
+
+			trPlayer.transform.position = trNextRoomSpot.transform.position;
 		}
 	}
 

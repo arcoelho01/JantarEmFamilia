@@ -36,6 +36,6 @@ public class CDoorOpen : MonoBehaviour {
 	/// </summary>
 	void OnTriggerEnter2D(Collider2D col) {
 
-		doorScript.PlayerWantsToGoToNextRoom();
+		doorScript.PlayerWantsToGoToNextRoom(col.transform.parent.transform);
 	}
 }

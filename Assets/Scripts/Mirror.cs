@@ -11,6 +11,7 @@ public class Mirror : MonoBehaviour {
 	 * ==========================================================================================================
 	 */
 	// PUBLIC
+	GameObject goIcon = null;
 
 	// PRIVATE
 
@@ -22,6 +23,11 @@ public class Mirror : MonoBehaviour {
 	 */
 	//
 	void Awake() {
+
+		goIcon = GameObject.Find("/MainCamera/HUD/HUDBoris");
+
+		if(goIcon)
+			goIcon.SetActive(false);
 
 	}
 
@@ -64,10 +70,23 @@ public class Mirror : MonoBehaviour {
 				//
 				playerScript.InFrontOfAMirror();
 
+				// Enables the talk icon
+				if(goIcon)
+					goIcon.SetActive(true);
 			}
+		}
+	}
 
-			// DEBUG
-			Debug.Log("Mirror: " + col.transform);
+	/// <summary>
+	///
+	/// </summary>
+	void OnTriggerExit2D(Collider2D col) {
+
+		if(col.gameObject.layer == 9) {
+
+			// Disables the talk icon
+			if(goIcon)
+				goIcon.SetActive(false);
 		}
 	}
 }

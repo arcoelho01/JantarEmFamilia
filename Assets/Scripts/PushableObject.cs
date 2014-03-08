@@ -139,6 +139,10 @@ public class PushableObject : MonoBehaviour {
 
 				fPushTimer += Time.deltaTime;
 			}
+			else {
+
+				fPushTimer = 0.0f;
+			}
 
 			if(fPushTimer >= fPushThresholdTime) { // we're pushing this block for long enough
 
