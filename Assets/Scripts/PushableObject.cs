@@ -21,6 +21,7 @@ public class PushableObject : MonoBehaviour {
 	// PROTECTED
 	private float		fPushTimer = 0.0f;
 	private Vector3 vPushDirection;
+	private CPlayer	playerScript;
 
 	/* ==========================================================================================================
 	 * UNITY METHODS
@@ -114,13 +115,18 @@ public class PushableObject : MonoBehaviour {
 		if(col.gameObject.layer == 9) {
 
 			// DEBUG
-			Debug.Log(this.transform + " collided with" + col.transform);
+			Debug.Log(this.transform + " collided with " + col.transform);
 			fPushTimer = 0.0f;
 
 			if(playerMovementScript == null) {
 
 				// Get the player movement script so we know where is he moving when touching one of the objects
 				playerMovementScript = col.gameObject.GetComponent<SimpleMove2D>();
+			}
+
+			if(playerScript == null) {
+
+				playerScript = col.gameObject.GetComponent<CPlayer>();
 			}
 		}
 	}
@@ -131,6 +137,18 @@ public class PushableObject : MonoBehaviour {
 	public void OnCollisionStay2D(Collision2D col) {
 
 		if(col.gameObject.layer == 9 && playerMovementScript != null) {
+
+			// Check if the player is in the strong state. If not, he cannot push anything
+			if(playerScript == null) {
+
+				playerScript = col.gameObject.GetComponent<CPlayer>();
+				return;
+			}
+			else {
+
+				if(playerScript.GetCurrentState() != CPlayer.ProjectionState.P_STRONG)
+					return;
+			}
 
 			// Ok, check if the player is pushing this object or is just touching it
 			Vector2	vPlayerMovingDirection = playerMovementScript.GetMovingDirection();

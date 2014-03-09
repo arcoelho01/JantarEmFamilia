@@ -38,16 +38,6 @@ public class CFather : MonoBehaviour {
 			goIcon = GameObject.Find("/MainCamera/HUD/HUDDad");
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
-	// 
-	void FixedUpdate() {
-
-	}
-
 	/* ==========================================================================================================
 	 * CLASS METHODS
 	 * ==========================================================================================================
@@ -56,7 +46,7 @@ public class CFather : MonoBehaviour {
 
 		if(col.gameObject.layer == 9) {
 
-			CPlayer playerScript = col.transform.gameObject.GetComponent<CPlayer>();
+			CPlayer playerScript = col.transform.parent.transform.gameObject.GetComponent<CPlayer>();
 
 			if(playerScript != null && playerScript.GetCurrentState() == CPlayer.ProjectionState.P_MYSELF) {
 
@@ -70,8 +60,9 @@ public class CFather : MonoBehaviour {
 
 		if(col.gameObject.layer == 9) {
 
+		// DEBUG
 			if(!playerScript)
-				playerScript = col.transform.gameObject.GetComponent<CPlayer>();
+				playerScript = col.transform.parent.transform.gameObject.GetComponent<CPlayer>();
 
 			if(playerScript != null) {
 

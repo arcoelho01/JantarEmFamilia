@@ -49,6 +49,12 @@ public class SpriteDynamicZOrder : MonoBehaviour {
 	/// </summary>
 	void FindSpritesObjects() {
 
+		if(aTrSprites != null && aTrSprites.Length != 0) {
+
+			// Sprites objects already defined in the inspector
+			return;
+		}
+
 		// Get all sprites objects inside this object
 		Transform trSpritesObject = trObject.Find("Sprites");
 

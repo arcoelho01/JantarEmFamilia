@@ -39,16 +39,6 @@ public class CUncle : MonoBehaviour {
 			goIcon = GameObject.Find("/MainCamera/HUD/HUDUncle");
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
-	// 
-	void FixedUpdate() {
-
-	}
-
 	/* ==========================================================================================================
 	 * CLASS METHODS
 	 * ==========================================================================================================
