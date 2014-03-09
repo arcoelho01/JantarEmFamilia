@@ -13,6 +13,7 @@ public class CMouseHole : MonoBehaviour {
 	// PUBLIC
 	public Transform	trCamera;				//< Game Camera
 	public Transform	trNextRoom;			//< On the next room, the object that indicates the camera position
+	public Transform	trNextRoomSpot;	//< Where the player will appear in the next room
 
 	// PRIVATE
 	private CCamera		cameraScript;
@@ -45,6 +46,11 @@ public class CMouseHole : MonoBehaviour {
 		if(trNextRoom != null) {
 
 			cameraScript.StartShiftingCamera(trNextRoom);
+		}
+
+		if(trNextRoomSpot != null) {
+
+			col.transform.parent.transform.position = trNextRoomSpot.transform.position;
 		}
 	}
 }
