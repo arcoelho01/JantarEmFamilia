@@ -75,7 +75,8 @@ public class CDoor : MonoBehaviour {
 	public void PlayerWantsToUnlockThisDoor(CPlayer playerScript) {
 
 		// Invalid player or no key? 
-		if(playerScript == null || !playerScript.bnHasKey) {
+		if(playerScript == null || !playerScript.bnHasKey || 
+				playerScript.GetCurrentState() == CPlayer.ProjectionState.P_MOUSE) {
 
 			// Cannot unlock this door
 			if(sfxLockedDoor != null) {

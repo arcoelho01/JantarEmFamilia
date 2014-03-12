@@ -12,9 +12,9 @@ public class CPlayer : MonoBehaviour
 	 * ==========================================================================================================
 	 */
 
-	public delegate void PlayerStrongHandler (bool bnIsStrong);
-
-	public static event PlayerStrongHandler OnTransformedStrong;
+	// DEPRECATED
+	//public delegate void PlayerStrongHandler (bool bnIsStrong);
+	//public static event PlayerStrongHandler OnTransformedStrong;
 
 
 	// PUBLIC
@@ -153,11 +153,11 @@ public class CPlayer : MonoBehaviour
 				if (animator != null) {
 					animator.SetInteger ("state", (int)state);
 				}
-				if (OnTransformedStrong != null) {
+				//if (OnTransformedStrong != null) {
 
-					// Not strong
-					OnTransformedStrong (false);
-				}
+				//	// Not strong
+				//	OnTransformedStrong (false);
+				//}
 				break;
 
 			case ProjectionState.P_MOUSE:
@@ -174,11 +174,11 @@ public class CPlayer : MonoBehaviour
 				// Set the animator
 				animator.SetInteger ("state", (int)state);
 
-				if (OnTransformedStrong != null) {
+				//if (OnTransformedStrong != null) {
 
-					// Not strong
-					OnTransformedStrong (false);
-				}
+				//	// Not strong
+				//	OnTransformedStrong (false);
+				//}
 				break;
 
 			case ProjectionState.P_STRONG:
@@ -195,11 +195,11 @@ public class CPlayer : MonoBehaviour
 				// Set the animator
 				animator.SetInteger ("state", (int)state);
 
-				if (OnTransformedStrong != null) {
+				//if (OnTransformedStrong != null) {
 
-					// Not strong
-					OnTransformedStrong (true);
-				}
+				//	// Not strong
+				//	OnTransformedStrong (true);
+				//}
 				break;
 
 			case ProjectionState.P_CHILD:
@@ -212,11 +212,11 @@ public class CPlayer : MonoBehaviour
 				// Set the animator
 				animator.SetInteger ("state", (int)state);
 
-				if (OnTransformedStrong != null) {
+				//if (OnTransformedStrong != null) {
 
-					// Not strong
-					OnTransformedStrong (false);
-				}
+				//	// Not strong
+				//	OnTransformedStrong (false);
+				//}
 				break;
 		}
 	}
