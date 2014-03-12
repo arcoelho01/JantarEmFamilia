@@ -257,4 +257,14 @@ public class CPlayer : MonoBehaviour
 		if(GetCurrentState() != ProjectionState.P_MOUSE)
 			ChangeToState (ProjectionState.P_MOUSE);
 	}
+
+
+	/// <summary>
+	/// Player used a key in a door
+	/// </summary>
+	public void UsedKey() {
+
+		if(bnHasKey)
+			bnHasKey = false;
+	}
 }

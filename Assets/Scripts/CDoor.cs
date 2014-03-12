@@ -93,5 +93,7 @@ public class CDoor : MonoBehaviour {
 		}
 		trLockedDoor.gameObject.SetActive(false);
 		trOpenDoor.gameObject.SetActive(true);
+
+		playerScript.UsedKey();
 	}
 }
