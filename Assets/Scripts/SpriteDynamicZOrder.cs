@@ -14,7 +14,7 @@ public class SpriteDynamicZOrder : MonoBehaviour {
 	// PUBLIC
 	public int					nLayerUnderID		= 1;	//< Named 'RenderUnderPlayer
 	public int					nLayerOverID		= 3;	//< Named RenderOverPlayer
-	public Transform		trObject;	//< Shortcut for this character/object transform
+	public Transform		trObject;	//< Shortcut for this character/object transform. The position of this object will be compared with the other object
 	public Transform[]	aTrSprites;	//< Sprites which must have this dynamic behaviour
 	
 	// PRIVATE
