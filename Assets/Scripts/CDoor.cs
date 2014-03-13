@@ -12,7 +12,7 @@ public class CDoor : MonoBehaviour {
 	 */
 	// PUBLIC
 	public Transform	trCamera;				//< Game Camera
-	public Transform	trNextRoom;			//< On the next room, the object that indicates the camera position
+	public Transform	trNextRoomCameraPosition;			//< On the next room, the object that indicates the camera position
 	public Transform	trNextRoomSpot;	//< Where the player must appear when he passes through this door?
 	public bool				bnIsLocked;			//< Is this door currently locked?
 	public Transform	trLockedDoor;
@@ -58,9 +58,9 @@ public class CDoor : MonoBehaviour {
 	/// </summary>
 	public void PlayerWantsToGoToNextRoom(Transform trPlayer) {
 
-		if(trNextRoom != null) {
+		if(trNextRoomCameraPosition != null) {
 
-			cameraScript.StartShiftingCamera(trNextRoom);
+			cameraScript.StartShiftingCamera(trNextRoomCameraPosition);
 		}
 
 		if(trNextRoomSpot != null) {
