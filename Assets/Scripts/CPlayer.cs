@@ -246,15 +246,24 @@ public class CPlayer : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// When the player finishes talking with the father he's become strong
+	/// </summary>
 	public void TalkedToFather ()
 	{
 
-		ChangeToState (ProjectionState.P_STRONG);
+		// Only change if we are in the 'normal' state
+		if(GetCurrentState() == ProjectionState.P_MYSELF)
+			ChangeToState (ProjectionState.P_STRONG);
 	}
 
+	/// <summary>
+	/// When the player finishes talking with the uncle he's become a mouse
+	/// </summary>
 	public void TalkedToUncle ()
 	{
-		if(GetCurrentState() != ProjectionState.P_MOUSE)
+		// Only change if we are in the 'normal' state
+		if(GetCurrentState() == ProjectionState.P_MYSELF)
 			ChangeToState (ProjectionState.P_MOUSE);
 	}
 

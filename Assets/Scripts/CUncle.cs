@@ -11,9 +11,11 @@ public class CUncle : MonoBehaviour {
 	 * ==========================================================================================================
 	 */
 	// PUBLIC
-	public GameObject goIcon = null;
+	//public GameObject goIcon = null;
 
 	// PRIVATE
+	GameObject	goMainGame;
+	MainGame		mainGameScript;
 	private CPlayer playerScript = null;
 	private SimpleMove2D movementScript;
 	// PROTECTED
@@ -25,18 +27,23 @@ public class CUncle : MonoBehaviour {
 	//
 	void Awake() {
 
-		goIcon = GameObject.Find("/MainCamera/HUD/HUDUncle");
+//		goIcon = GameObject.Find("/MainCamera/HUD/HUDUncle");
+//
+//		if(goIcon)
+//			goIcon.SetActive(false);
+//
+		goMainGame = GameObject.Find("/MainGame");
+		if(goMainGame != null) {
 
-		if(goIcon)
-			goIcon.SetActive(false);
-
+			mainGameScript = goMainGame.GetComponent<MainGame>();
+		}
 	}
 
 	// Use this for initialization
 	void Start () {
 
-		if(!goIcon)
-			goIcon = GameObject.Find("/MainCamera/HUD/HUDUncle");
+		//if(!goIcon)
+		//	goIcon = GameObject.Find("/MainCamera/HUD/HUDUncle");
 	}
 	
 	/* ==========================================================================================================
@@ -72,23 +79,38 @@ public class CUncle : MonoBehaviour {
 		}
 	}
 
+	/// <summary>
+	///
+	/// </summary>
 	void CharacterDoneTalkingToPlayer() {
 
 		// esconde o balao
-		if(goIcon)
-			goIcon.SetActive(false);
+		//if(goIcon)
+		//	goIcon.SetActive(false);
 
 		// transforma o jogador
 		if(playerScript) {
 
 			playerScript.TalkedToUncle();
 		}
+
+		if(mainGameScript != null) {
+
+			mainGameScript.HUDTalkWithUncle(false);
+		}
 	}
 
+	/// <summary>
+	///
+	/// </summary>
 	void CharacterTalkToPlayer() {
 
 		// Mostra balao
-		if(goIcon)
-			goIcon.SetActive(true);
+		//if(goIcon)
+		//	goIcon.SetActive(true);
+		if(mainGameScript != null) {
+
+			mainGameScript.HUDTalkWithUncle(true);
+		}
 	}
 }

@@ -2,7 +2,10 @@
 using System.Collections;
 
 /// <summary>
-/// Class name and description
+/// Push an object
+/// FOR THIS TO WORK:
+/// - The player must be in the STRONG state
+/// - The colliders where the object CANNOT be pushed must be in the layers 11 (BlockObject) or 12 (Character)
 /// </summary>
 public class PushableObject : MonoBehaviour {
 
@@ -15,14 +18,13 @@ public class PushableObject : MonoBehaviour {
 	// PRIVATE
 	public float		fPushThresholdTime = 1.0f;
 	public bool			bnIsHeavy = false;	//< Heavy object can only be moved by the strong character
-	//public Vector3 _vDirectionTemp;
 	public SimpleMove2D	playerMovementScript = null;
 
 	// PROTECTED
 	private float		fPushTimer = 0.0f;
 	public Vector3 vPushDirection;
 	private CPlayer	playerScript;
-	public Vector3 vCenterPosition;
+	private Vector3 vCenterPosition;
 
 	/* ==========================================================================================================
 	 * UNITY METHODS

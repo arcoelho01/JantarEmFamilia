@@ -11,7 +11,9 @@ public class CFather : MonoBehaviour {
 	 * ==========================================================================================================
 	 */
 	// PUBLIC
-	public GameObject goIcon = null;
+	//public GameObject goIcon = null;
+	GameObject	goMainGame;
+	MainGame		mainGameScript;
 
 	// PRIVATE
 	private CPlayer playerScript = null;
@@ -25,17 +27,23 @@ public class CFather : MonoBehaviour {
 	//
 	void Awake() {
 
-		goIcon = GameObject.Find("/MainCamera/HUD/HUDDad");
+		goMainGame = GameObject.Find("/MainGame");
+		if(goMainGame != null) {
 
-		if(goIcon) 
-			goIcon.SetActive(false);
+			mainGameScript = goMainGame.GetComponent<MainGame>();
+		}
+
+		//goIcon = GameObject.Find("/MainCamera/HUD/HUDDad");
+
+		//if(goIcon) 
+		//	goIcon.SetActive(false);
 	}
 
 	// Use this for initialization
 	void Start () {
 
-		if(!goIcon) 
-			goIcon = GameObject.Find("/MainCamera/HUD/HUDDad");
+	//	if(!goIcon) 
+	//		goIcon = GameObject.Find("/MainCamera/HUD/HUDDad");
 	}
 	
 	/* ==========================================================================================================
@@ -71,23 +79,38 @@ public class CFather : MonoBehaviour {
 		}
 	}
 
+	/// <summary>
+	///
+	/// </summary>
 	void CharacterDoneTalkingToPlayer() {
 
 		// esconde o balao
-		if(goIcon)
-			goIcon.SetActive(false);
+		//if(goIcon)
+		//	goIcon.SetActive(false);
 
 		// transforma o jogador
 		if(playerScript) {
 
 			playerScript.TalkedToFather();
 		}
+
+		if(mainGameScript != null) {
+
+			mainGameScript.HUDTalkWithDad(false);
+		}
 	}
 
+	/// <summary>
+	///
+	/// </summary>
 	void CharacterTalkToPlayer() {
 
 		// Mostra balao
-		if(goIcon)
-			goIcon.SetActive(true);
+		if(mainGameScript != null) {
+
+			mainGameScript.HUDTalkWithDad(true);
+		}
+		//if(goIcon)
+		//	goIcon.SetActive(true);
 	}
 }
