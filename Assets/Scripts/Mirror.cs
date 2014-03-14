@@ -2,7 +2,7 @@
 using System.Collections;
 
 /// <summary>
-/// Class name and description
+/// WARNING: the mirror will only detect boxes that are in the layer 10, in the position of the object 'trCheckForBoxesPosition'
 /// </summary>
 public class Mirror : MonoBehaviour {
 

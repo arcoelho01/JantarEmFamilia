@@ -12,7 +12,7 @@ public class CBlock : MonoBehaviour {
 	 */
 	// PUBLIC
 	public bool	bnIsSolid = true;	//< is this block solid?
-	public enum	eColliderSize { ALL_BLOCK, HOLLOW_CENTER, NONE };
+	public enum	eColliderSize { ALL_BLOCK, HALF_TOP, HALF_LEFT, HALF_LEFT_AND_TOP, HOLLOW_CENTER, NONE };
 	public eColliderSize	eSolidColliderType = eColliderSize.ALL_BLOCK;	
 
 	// PRIVATE
@@ -32,12 +32,49 @@ public class CBlock : MonoBehaviour {
 			switch(eSolidColliderType) {
 
 				case eColliderSize.ALL_BLOCK:
+					{
 					// ALL_BLOCK: the entire block (1x1) is solid. The easiest way is to simply add a collider to this object
 					boxCollider = gameObject.AddComponent("BoxCollider2D") as BoxCollider2D;
 					Vector2 vNewCenter = new Vector2(transform.localScale.x / 2, -transform.localScale.y / 2);
 					boxCollider.center = vNewCenter;
+					}
 
 					break;
+				
+				case eColliderSize.HALF_TOP:
+					{
+						boxCollider = gameObject.AddComponent("BoxCollider2D") as BoxCollider2D;
+
+						boxCollider.center = new Vector2(transform.localScale.x / 2, -transform.localScale.y / 4);
+						boxCollider.size = new Vector2(1.0f, 0.5f);
+					}
+					break;
+
+				case eColliderSize.HALF_LEFT:
+					{
+						boxCollider = gameObject.AddComponent("BoxCollider2D") as BoxCollider2D;
+
+						boxCollider.center = new Vector2(0.25f, -0.5f);
+						boxCollider.size = new Vector2(0.5f, 1.0f);
+					}
+					break;
+
+				case eColliderSize.HALF_LEFT_AND_TOP:
+					{
+						boxCollider = gameObject.AddComponent("BoxCollider2D") as BoxCollider2D;
+
+						boxCollider.center = new Vector2(transform.localScale.x / 2, -transform.localScale.y / 4);
+						boxCollider.size = new Vector2(1.0f, 0.5f);
+					}
+					{
+						boxCollider = gameObject.AddComponent("BoxCollider2D") as BoxCollider2D;
+
+						boxCollider.center = new Vector2(0.25f, -0.5f);
+						boxCollider.size = new Vector2(0.5f, 1.0f);
+					}
+
+					break;
+
 				case eColliderSize.HOLLOW_CENTER:
 					// Hollow center: half of the size of the sprite is hollow (i.e. no collider) in the center
 					// Activate the object that holds our colliders
