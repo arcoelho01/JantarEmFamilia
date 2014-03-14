@@ -21,6 +21,8 @@ public class SimpleMove2D : MonoBehaviour
 		// PRIVATE
 		CPlayer playerScript;
 		public bool bnAllowedToGetInput = true;
+		//private Quaternion qRotationFaceRight;
+		//private Quaternion qRotationFaceLeft;
 
 		// PROTECTED
 
@@ -33,6 +35,8 @@ public class SimpleMove2D : MonoBehaviour
 		{
 
 				playerScript = GetComponent<CPlayer> ();
+				//qRotationFaceRight = Quaternion.EulerAngles(new Vector3(0,180,0));
+				//qRotationFaceLeft = Quaternion.EulerAngles(new Vector3(0,0,0));
 		}
 
 		// Use this for initialization
@@ -98,11 +102,15 @@ public class SimpleMove2D : MonoBehaviour
 		void FlipSprite ()
 		{
 
-				//trSprite = playerScript.GetCurrentSpriteObject();
 
 				Vector3 v3SpriteScale = trSprite.localScale;
 				v3SpriteScale.x *= -1;
 				trSprite.localScale = v3SpriteScale;
+				//if(bnFacingLeft)
+				//	trSprite.rotation = qRotationFaceRight;
+				//else
+				//	trSprite.rotation = qRotationFaceLeft;
+
 				bnFacingLeft = !bnFacingLeft;
 		}
 

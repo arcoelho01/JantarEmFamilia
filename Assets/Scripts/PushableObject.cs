@@ -20,8 +20,9 @@ public class PushableObject : MonoBehaviour {
 
 	// PROTECTED
 	private float		fPushTimer = 0.0f;
-	private Vector3 vPushDirection;
+	public Vector3 vPushDirection;
 	private CPlayer	playerScript;
+	public Vector3 vCenterPosition;
 
 	/* ==========================================================================================================
 	 * UNITY METHODS
@@ -35,6 +36,7 @@ public class PushableObject : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
+		vCenterPosition = this.transform.position + new Vector3(0.5f,-0.5f,0.0f);
 	}
 	
 	// Update is called once per frame
@@ -51,15 +53,53 @@ public class PushableObject : MonoBehaviour {
 	 * CLASS METHODS
 	 * ==========================================================================================================
 	 */
+
+	/// <summary>
+	/// Using the physics system, check for colliders in the position where we trying to push this object
+	/// </summary>
+	bool CheckIfNextTileIsFree() {
+
+		bool rv = true;
+		
+		// Create an array of colliders
+		Collider2D[] collidersHit = new Collider2D[10];
+
+		// Check if we hit something halfway to where we are pushing
+		Physics2D.OverlapPointNonAlloc(vCenterPosition + (vPushDirection * 1.25f), collidersHit, (1 << 12) | (1 << 11));
+		if(collidersHit.Length !=0 ) {
+
+			rv = true;
+			for(int n=0; n < collidersHit.Length; n++) {
+
+				if(collidersHit[n] != null) {
+					// DEBUG
+					Debug.Log(" half hit[ " + n + "]: " + collidersHit[n].transform );
+
+					rv = false;
+				}
+			}
+		}
+
+		return rv;
+	}
 	/// <summary>
 	///
 	/// </summary>
 	void MoveObjectToNextTile() {
 
-		// TODO: check if the next tile is available to move in
+		fPushTimer = 0.0f;
+
+		// Updates the center position
+		vCenterPosition = this.transform.position + new Vector3(0.5f,-0.5f,0.0f);
+
+		// Check if the next tile is free
+		if(!CheckIfNextTileIsFree()) {
+
+			return;
+		}
+
 		Vector3 vNewPosition = transform.position + vPushDirection;
 		transform.position = vNewPosition;
-		fPushTimer = 0.0f;
 	}
 
 	/// <summary>
@@ -144,10 +184,9 @@ public class PushableObject : MonoBehaviour {
 				playerScript = col.gameObject.GetComponent<CPlayer>();
 				return;
 			}
-			else {
 
-				if(playerScript.GetCurrentState() != CPlayer.ProjectionState.P_STRONG)
-					return;
+			if(playerScript.GetCurrentState() != CPlayer.ProjectionState.P_STRONG) {
+				return;
 			}
 
 			// Ok, check if the player is pushing this object or is just touching it
@@ -165,12 +204,13 @@ public class PushableObject : MonoBehaviour {
 			if(fPushTimer >= fPushThresholdTime) { // we're pushing this block for long enough
 
 				fPushTimer = 0.0f;
-				//_vDirectionTemp = col.transform.position - transform.position;
 				vPushDirection = CheckPushVector(col.transform.position);
 
-				MoveObjectToNextTile();
-				// DEBUG
-				Debug.Log(this.transform + " is being pushed by " + col.transform);
+				if(playerScript.GetCurrentState() == CPlayer.ProjectionState.P_STRONG) {
+					MoveObjectToNextTile();
+					// DEBUG
+					Debug.Log(this.transform + " is being pushed by " + col.transform + " " + playerScript.GetCurrentState());
+				}
 			}
 		}
 	}
@@ -178,11 +218,22 @@ public class PushableObject : MonoBehaviour {
 	/// <summary>
 	///
 	/// </summary>
-	public void OnCollisionExit2D(Collision2D col) {
+	void OnCollisionExit2D(Collision2D col) {
 
-		if(col.gameObject.layer == 9) {
-
-			fPushTimer = 0.0f;
-		}
+		// It's doesn't work while we are changing the localScale values to make the sprite flip
 	}
+
+	/* ==========================================================================================================
+	 * DEBUG STUFF
+	 * ==========================================================================================================
+	 */
+	void OnDrawGizmos() {
+
+		Gizmos.color = Color.red;
+		Gizmos.DrawWireSphere(vCenterPosition + (vPushDirection * 1.25f), 0.1f);
+
+		Gizmos.color = Color.yellow;
+		Gizmos.DrawWireSphere(vCenterPosition + vPushDirection, 0.1f);
+	}
+
 }

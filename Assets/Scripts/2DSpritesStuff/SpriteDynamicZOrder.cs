@@ -100,6 +100,9 @@ public class SpriteDynamicZOrder : MonoBehaviour {
 	/// </summary>
 	void CheckZOrderLayer(Transform trOtherObject) {
 
+		if(trOtherObject == null) 
+			return;
+
 		if(trObject.position.y <= trOtherObject.position.y) {
 			// We are 'under' the other object, so we must be rendered over it
 			SetSpritesSortingLayer(nLayerOverID);
@@ -134,11 +137,13 @@ public class SpriteDynamicZOrder : MonoBehaviour {
 	 */
 	void OnTriggerEnter2D(Collider2D col) {
 
-		CheckZOrderLayer(col.transform.parent.transform);
+		if(col.gameObject.layer == 9 || col.gameObject.layer == 12)
+			CheckZOrderLayer(col.transform.parent.transform);
 	}
 
 	void OnTriggerStay2D(Collider2D col) {
 
-		CheckZOrderLayer(col.transform.parent.transform);
+		if(col.gameObject.layer == 9 || col.gameObject.layer == 12)
+			CheckZOrderLayer(col.transform.parent.transform);
 	}
 }
