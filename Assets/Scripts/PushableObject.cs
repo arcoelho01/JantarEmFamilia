@@ -67,7 +67,7 @@ public class PushableObject : MonoBehaviour {
 		Collider2D[] collidersHit = new Collider2D[10];
 
 		// Check if we hit something halfway to where we are pushing
-		Physics2D.OverlapPointNonAlloc(vCenterPosition + (vPushDirection * 1.25f), collidersHit, (1 << 12) | (1 << 11));
+		Physics2D.OverlapPointNonAlloc(vCenterPosition + vPushDirection, collidersHit, (1 << 12) | (1 << 11) | (1 << 10));
 		if(collidersHit.Length !=0 ) {
 
 			rv = true;
@@ -100,7 +100,7 @@ public class PushableObject : MonoBehaviour {
 			return;
 		}
 
-		Vector3 vNewPosition = transform.position + vPushDirection;
+		Vector3 vNewPosition = transform.position + (vPushDirection * 0.5f);
 		transform.position = vNewPosition;
 	}
 
