@@ -19,8 +19,6 @@ public class Menu : MonoBehaviour
     public string menuTitleText;
     private int index = 0;
 
-    private string[] warningTexts = { "Avoid the Stalker\r\n\r\nand\r\n\r\nFind the Target!", "Look carefuly\r\n\r\nand\r\n\r\nClick when you are sure!", "Move\r\n\r\nand\r\n\r\nBe precisely!", "Because\r\n\r\nyou got just\r\n\r\nOne shot!" };
-
     void OnGUI()
     {
         try
@@ -33,31 +31,45 @@ public class Menu : MonoBehaviour
 
             GUI.skin = textSkin;
 
-						GUILayout.BeginArea(new Rect(Screen.width / 2f - width / 2, Screen.height / 1.675f, width, heigth));
-//
-//            if (Application.loadedLevelName != "HowToPlay")
-//            {
-//                if (Application.loadedLevelName == "Credits" || Application.loadedLevelName == "Final")
-//                {
-//                    GUILayout.BeginArea(new Rect(Screen.width / 2f - width / 2, Screen.height / 1.3f, width, heigth));
-//                }
-//                else
-//                {
-//                    GUILayout.BeginArea(new Rect(Screen.width / 2f - width / 2, Screen.height / 1.675f, width, heigth));
-//                }
-//            }
-//
+            if (Application.loadedLevelName != "HowToPlay")
             {
+                if (Application.loadedLevelName == "Credits" || Application.loadedLevelName == "Final")
+                {
+                    GUILayout.BeginArea(new Rect(Screen.width / 2f - width / 2, Screen.height / 1.3f, width, heigth));
+                }
+                else
+                {
+                    GUILayout.BeginArea(new Rect(Screen.width / 2f - width / 2, Screen.height / 1.675f, width, heigth));
+                }
+            }
+						else {
+
+							// HOW TO PLAY STUFF
+						}
+
+            {
+						GUILayout.BeginArea(new Rect(Screen.width / 2f - width / 2, Screen.height / 1.675f, width, heigth));
+
                 if (Application.loadedLevelName == "Menu")
                 {
-                    if (GUILayout.Button("PlAY", buttonStyle))
+                    if (GUILayout.Button("Play", buttonStyle))
                     {
                         OnChangeScreen("Level1");
+                    }
+
+                    if (GUILayout.Button("How To Play", buttonStyle))
+                    {
+                        OnChangeScreen("HowToPlay");
                     }
 
                     if (GUILayout.Button("Credits", buttonStyle))
                     {
                         OnChangeScreen("Credits");
+                    }
+
+                    if (GUILayout.Button("Exit", buttonStyle))
+                    {
+											Application.Quit();
                     }
                 }
                 else
