@@ -43,6 +43,8 @@ public class CPlayer : MonoBehaviour
 	public bool bnHasKey;
 	SimpleMove2D movementScript;
 
+	GameObject	goMainGame;
+	MainGame		mainGameScript;
 	// PROTECTED
 
 	/* ==========================================================================================================
@@ -60,6 +62,15 @@ public class CPlayer : MonoBehaviour
 		goMyselfCollider.SetActive(false);
 		goMouseCollider.SetActive(false);
 		goStrongCollider.SetActive(false);
+
+		goMainGame = GameObject.Find("/MainGame");
+		if(goMainGame != null) {
+
+			mainGameScript = goMainGame.GetComponent<MainGame>();
+		}
+
+		// Register the movement script with the MainGame, so it can be accessed from another scripts
+		mainGameScript.RegisterPlayerMovementWithThisGame(movementScript);
 	}
 
 	// Use this for initialization

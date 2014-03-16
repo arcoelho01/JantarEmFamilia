@@ -78,6 +78,13 @@ public class SimpleMove2D : MonoBehaviour
 
 						transform.Translate (v2MoveDirection.normalized * fMoveSpeed * Time.deltaTime);
 				}
+				else {
+
+						if (animator != null) {
+
+								animator.SetFloat ("hDirection", 0.0f);
+						}
+				}
 				//if(fH * rigidbody2D.velocity.x < maxSpeed) {
 
 				//	rigidbody2D.AddForce(Vector2.right * fH * moveForce);

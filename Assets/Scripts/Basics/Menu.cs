@@ -31,55 +31,41 @@ public class Menu : MonoBehaviour
 
             GUI.skin = textSkin;
 
-            if (Application.loadedLevelName != "HowToPlay")
-            {
-                if (Application.loadedLevelName == "Credits" || Application.loadedLevelName == "Final")
-                {
-                    GUILayout.BeginArea(new Rect(Screen.width / 2f - width / 2, Screen.height / 1.3f, width, heigth));
-                }
-                else
-                {
-                    GUILayout.BeginArea(new Rect(Screen.width / 2f - width / 2, Screen.height / 1.675f, width, heigth));
-                }
-            }
-						else {
+						GUILayout.BeginArea(new Rect(Screen.width / 1.525f, Screen.height / 1.55f, width, heigth));
 
-							// HOW TO PLAY STUFF
+						if (Application.loadedLevelName == "Menu")
+						{
+							if (GUILayout.Button("Play", buttonStyle))
+							{
+								OnChangeScreen("Level1");
+							}
+
+							if (GUILayout.Button("How To Play", buttonStyle))
+							{
+								OnChangeScreen("HowToPlay");
+							}
+
+							if (GUILayout.Button("Credits", buttonStyle))
+							{
+								OnChangeScreen("Credits");
+							}
+
+							if (GUILayout.Button("Exit", buttonStyle))
+							{
+								Application.Quit();
+							}
 						}
+						else
+						{
+							if (GUILayout.Button("Menu", buttonStyle))
+							{
+								OnChangeScreen("Menu");
+							}
+							if (GUILayout.Button("Play", buttonStyle)) {
 
-            {
-						GUILayout.BeginArea(new Rect(Screen.width / 2f - width / 2, Screen.height / 1.675f, width, heigth));
-
-                if (Application.loadedLevelName == "Menu")
-                {
-                    if (GUILayout.Button("Play", buttonStyle))
-                    {
-                        OnChangeScreen("Level1");
-                    }
-
-                    if (GUILayout.Button("How To Play", buttonStyle))
-                    {
-                        OnChangeScreen("HowToPlay");
-                    }
-
-                    if (GUILayout.Button("Credits", buttonStyle))
-                    {
-                        OnChangeScreen("Credits");
-                    }
-
-                    if (GUILayout.Button("Exit", buttonStyle))
-                    {
-											Application.Quit();
-                    }
-                }
-                else
-                {
-                    if (GUILayout.Button("Menu", buttonStyle))
-                    {
-                        OnChangeScreen("Menu");
-                    }
-                }
-            }
+								OnChangeScreen("Level1");
+							}
+						}
 
             GUILayout.EndArea();
         }

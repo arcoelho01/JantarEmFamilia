@@ -17,7 +17,11 @@ public class MainGame : MonoBehaviour {
 
 
 	// PRIVATE
+	bool bnIsGamePaused = false;
 
+	CPlayer	playerScript;
+	Transform	trPlayer;
+	SimpleMove2D	playerMovementScript;
 	// PROTECTED
 
 	/* ==========================================================================================================
@@ -87,5 +91,24 @@ public class MainGame : MonoBehaviour {
 
 		if(goHUDUncle != null)
 			goHUDUncle.SetActive(bnShow);
+	}
+
+	public void RegisterPlayerMovementWithThisGame(SimpleMove2D script) {
+
+		playerMovementScript = script;
+	}
+
+	public bool IsGamePaused() {
+
+		return bnIsGamePaused;
+	}
+
+	public void SetGamePause(bool bnStatus) {
+
+		bnIsGamePaused = bnStatus;
+
+		if(playerMovementScript != null) {
+			playerMovementScript.bnAllowedToGetInput = !bnStatus;
+		}
 	}
 }
