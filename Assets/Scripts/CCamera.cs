@@ -67,8 +67,8 @@ public class CCamera : MonoBehaviour {
 	/// </summary>
 	public void StartShiftingCamera(Transform	trNextRoomPositionObject) {
 
-		if(bnCameraIsMoving)
-			return;
+	//	if(bnCameraIsMoving)
+	//		return;
 
 		trNextRoom = trNextRoomPositionObject;
 
