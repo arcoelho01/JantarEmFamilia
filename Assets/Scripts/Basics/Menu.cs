@@ -71,7 +71,7 @@ public class Menu : MonoBehaviour
         }
         catch (System.Exception exc)
         {
-            Debug.LogError(exc.Message + exc.StackTrace);
+            Debug.LogError(Application.loadedLevelName + exc.Message + exc.StackTrace);
         }
     }
 
